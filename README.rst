@@ -13,66 +13,13 @@ cookiecutter-django
    :target: https://gitter.im/pydanny/cookiecutter-django?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 
-A Cookiecutter_ template for Django.
+A Cookiecutter_ template for Andrew.
 
-.. _cookiecutter: https://github.com/audreyr/cookiecutter
+Customizations
+--------------
 
-Features
----------
-
-* For Django 1.9
-* Renders Django projects with 100% test coverage
-* Twitter Bootstrap_ v4.0.0 - alpha_
-* End-to-end via Hitch_
-* AngularJS_
-* 12-Factor_ based settings via django-environ_
-* Optimized development and production settings
-* Registration via django-allauth_
-* Comes with custom user model ready to go.
-* Grunt build for compass and livereload
-* Basic e-mail configurations for sending emails via Mailgun_
-* Media storage using Amazon S3
-* Docker support using docker-compose_ for development and production
-* Procfile_ for deploying to Heroku
-
-Optional Integrations
----------------------
-
-*These features can be enabled during initial project setup.*
-
-* Serve static files from Amazon S3 or Whitenoise_
-* Configuration for Celery_
-* Integration with MailHog_ for local email testing
-* Integration with Sentry_ for error logging
-* Integration with NewRelic_ for performance monitoring
-* Integration with Opbeat_ for performance monitoring
-
-.. _alpha: http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/
-.. _Hitch: https://github.com/hitchtest/hitchtest
-.. _Bootstrap: https://github.com/twbs/bootstrap
-.. _AngularJS: https://github.com/angular/angular.js
-.. _django-environ: https://github.com/joke2k/django-environ
-.. _12-Factor: http://12factor.net/
-.. _django-allauth: https://github.com/pennersr/django-allauth
-.. _django-avatar: https://github.com/jezdez/django-avatar/
-.. _Procfile: https://devcenter.heroku.com/articles/procfile
-.. _Mailgun: https://mailgun.com/
-.. _Whitenoise: https://whitenoise.readthedocs.org/
-.. _Celery: http://www.celeryproject.org/
-.. _MailHog: https://github.com/mailhog/MailHog
-.. _Sentry: https://getsentry.com
-.. _NewRelic: https://newrelic.com
-.. _docker-compose: https://www.github.com/docker/compose
-.. _Opbeat: https://opbeat.com/
-
-
-Constraints
------------
-
-* Only maintained 3rd party libraries are used.
-* PostgreSQL everywhere (9.0+)
-* Environment variables for configuration (This won't work with Apache/mod_wsgi).
-
+* Options for css
+* Some hints for best practices
 
 Usage
 ------
@@ -136,65 +83,4 @@ Create a GitHub repo and push it there::
     $ git remote add origin git@github.com:pydanny/redditclone.git
     $ git push -u origin master
 
-Now take a look at your repo. Don't forget to carefully look at the generated README. Awesome, right?
-
-For development, see the following for local development:
-
-* `Developing locally`_
-* `Developing locally using docker`_
-
-.. _`Developing locally`: http://cookiecutter-django.readthedocs.org/en/latest/developing-locally.html
-.. _`Developing locally using docker`: http://cookiecutter-django.readthedocs.org/en/latest/developing-locally-docker.html
-
-Support This Project
----------------------------
-
-This project is maintained by volunteers. Support their efforts by spreading the word about:
-
-.. image:: https://s3.amazonaws.com/tsacademy/images/tsa-logo-250x60-transparent-01.png
-   :name: Two Scoops Academy
-   :align: center
-   :alt: Two Scoops Academy
-   :target: http://www.twoscoops.academy/
-
-For Readers of Two Scoops of Django 1.8
---------------------------------------------
-
-You may notice that some elements of this project do not exactly match what we describe in chapter 3. The reason for that is this project, amongst other things, serves as a test bed for trying out new ideas and concepts. Sometimes they work, sometimes they don't, but the end result is that it won't necessarily match precisely what is described in the book I co-authored.
-
-"Your Stuff"
--------------
-
-Scattered throughout the Python and HTML of this project are places marked with "your stuff". This is where third-party libraries are to be integrated with your project.
-
-Releases
---------
-
-Want a stable release? You can find them at https://github.com/pydanny/cookiecutter-django/releases
-
-
-Not Exactly What You Want?
----------------------------
-
-This is what I want. *It might not be what you want.* Don't worry, you have options:
-
-Fork This
-~~~~~~~~~~
-
-If you have differences in your preferred setup, I encourage you to fork this to create your own version.
-Once you have your fork working, let me know and I'll add it to a '*Similar Cookiecutter Templates*' list here.
-It's up to you whether or not to rename your fork.
-
-If you do rename your fork, I encourage you to submit it to the following places:
-
-* cookiecutter_ so it gets listed in the README as a template.
-* The cookiecutter grid_ on Django Packages.
-
-.. _cookiecutter: https://github.com/audreyr/cookiecutter
-.. _grid: https://www.djangopackages.com/grids/g/cookiecutters/
-
-Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-I also accept pull requests on this, if they're small, atomic, and if they make my own project development
-experience better.
+Now look at your repo, and hit the Deploy to Heroku button!

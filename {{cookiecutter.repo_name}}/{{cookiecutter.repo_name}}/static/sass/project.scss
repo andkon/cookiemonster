@@ -1,7 +1,7 @@
 // project specific CSS goes here
 
 // Alert colors
-
+{% if cookiecutter.style_name == "bootstrap" %}
 $white: #fff;
 $mint-green: #d6e9c6;
 $black: #000;
@@ -49,3 +49,15 @@ $red: #b94a48;
 [hidden][style="display: block;"] {
   display: block !important;
 }
+{% elif cookiecutter.style_name == "bananas" %}
+$crazy-green: #66ff33;
+
+body {
+  background-color: $crazy-green;
+}
+
+p {
+  font-family: 'Comic Sans';
+}
+
+{% endif %}
